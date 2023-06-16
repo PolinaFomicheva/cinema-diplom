@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>ИдёмВКино</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<!-- <<div class="main">  
+  <div class="row blocks">
+    <div class="col-md-4 col-sm-6 blocks-item item-1"></div>    
+    <div class="col-md-4 col-sm-6 col-md-push-4 blocks-item item-3"></div>
+    <div class="col-md-4 col-sm-12 col-md-pull-4 blocks-item item-2"></div>
+  </div>  
+</div>> -->
+  <header class="page-header container-lg">
+    <h1 class="page-header__title">Идём<span>в</span>кино</h1>
+  </header>
+  <!-- неделя -->
+  <div class="container-lg">
+  <nav class="page-nav row">
+    <a class="page-nav__day page-nav__day_today col-6" href="#">
+      <span class="page-nav__day-week">Пн</span><span class="page-nav__day-number">31</span>
+    </a>
+    <a class="page-nav__day col-6" href="#">
+      <span class="page-nav__day-week">Вт</span><span class="page-nav__day-number">1</span>
+    </a>
+    <a class="page-nav__day page-nav__day_chosen col-6" href="#">
+      <span class="page-nav__day-week">Ср</span><span class="page-nav__day-number">2</span>
+    </a>
+    <a class="page-nav__day col-6" href="#">
+      <span class="page-nav__day-week">Чт</span><span class="page-nav__day-number">3</span>
+    </a>
+    <a class="page-nav__day col-6" href="#">
+      <span class="page-nav__day-week">Пт</span><span class="page-nav__day-number">4</span>
+    </a>
+    <a class="page-nav__day col-6" href="#">
+      <span class="page-nav__day-week">Сб</span><span class="page-nav__day-number">5</span>
+    </a>
+  </nav>
+</div>
+  <!-- список фильмов -->
+  <main class="container-lg">
+     <!-- список фильмов пример разметки -->
+    <!-- <section class="movie container-fluid">
+      <div class="movie__info row justify-content-center">      
+        <div class="movie__poster col-4">
+          <img class="movie__poster-image" alt="Альфа постер" src="i/poster2.jpg">
+        </div>
+        <div class="movie__description col-8">        
+          <h2 class="movie__title">Альфа</h2>
+          <p class="movie__synopsis">20 тысяч лет назад Земля была холодным и неуютным местом, в котором смерть подстерегала человека на каждом шагу.</p>
+          <p class="movie__data">
+            <span class="movie__data-duration">96 минут |</span>
+            <span class="movie__data-origin text-decoration-underline">Франция</span>
+          </p>
+        </div>    
+      </div>  
+      <div class="movie-seances__hall row">
+        <h3 class="movie-seances__hall-title">Зал 1</h3>
+         <ul class="movie-seances__list col-12">
+          <li class="movie-seances__time-block"><a class="movie-seances__time" href="hall.html">10:20</a></li>
+          <li class="movie-seances__time-block"><a class="movie-seances__time" href="hall.html">14:10</a></li>
+          <li class="movie-seances__time-block"><a class="movie-seances__time" href="hall.html">18:40</a></li>
+          <li class="movie-seances__time-block"><a class="movie-seances__time" href="hall.html">22:00</a></li>
+        </ul> -->
+      <!-- </div>
+      <div class="movie-seances__hall col-s">
+        <h3 class="movie-seances__hall-title">Зал 2</h3>
+        <ul class="movie-seances__list">
+          <li class="movie-seances__time-block"><a class="movie-seances__time" href="hall.html">11:15</a></li>
+          <li class="movie-seances__time-block"><a class="movie-seances__time" href="hall.html">14:40</a></li>
+          <li class="movie-seances__time-block"><a class="movie-seances__time" href="hall.html">16:00</a></li>
+          <li class="movie-seances__time-block"><a class="movie-seances__time" href="hall.html">18:30</a></li>
+          <li class="movie-seances__time-block"><a class="movie-seances__time" href="hall.html">21:00</a></li>
+          <li class="movie-seances__time-block"><a class="movie-seances__time" href="hall.html">23:30</a></li>     
+        </ul>
+      </div>  
+    </section> -->
+  </main>
+  <script src="js/api/createRequest.js"></script>
+  <script src="js/ui/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "name": "diplom-cinema",
+  "version": "1.0.0",
+  "description": "diplom",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PolinaFomicheva/cinema-diplom.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PolinaFomicheva/cinema-diplom/issues"
+  },
+  "homepage": "https://github.com/PolinaFomicheva/cinema-diplom#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.0"
+  }
+}
