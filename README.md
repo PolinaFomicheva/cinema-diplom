@@ -9,7 +9,7 @@
 - HTML
 - fetch
 
-Ссылка на GitHub Pages website:
+Ссылка на GitHub Pages website: https://polinafomicheva.github.io/cinema-diplom/
 
 
 ### Студенту предоставляются следующие компоненты системы:
